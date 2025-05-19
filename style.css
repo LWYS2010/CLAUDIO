@@ -1,0 +1,153 @@
+body {
+    font-family: 'Press Start 2P', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111827; /* Cor de fundo escura */
+    color: #f9fafb; /* Cor do texto clara */
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  header {
+    background-color: #1f2937; /* Cor de fundo do cabeçalho */
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 2px solid #374151; /* Borda inferior */
+  }
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #6366f1; /* Cor do título */
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  nav ul li a {
+    color: #f9fafb;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+  }
+  nav ul li a:hover {
+    color: #6366f1; /* Cor do link ao passar o mouse */
+  }
+  .highlight {
+    text-align: center;
+    padding: 50px 0;
+  }
+  .highlight h2 {
+    margin: 0 0 20px 0;
+    font-size: 2.5em;
+    color: #6b7280;
+  }
+  .highlight p {
+    font-size: 1.2em;
+    color: #d1d5db;
+    margin-bottom: 30px;
+  }
+  .highlight button {
+    background-color: #6366f1; /* Cor do botão */
+    color: #f9fafb;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .highlight button:hover {
+    background-color: #4c51bf; /* Cor do botão ao passar o mouse */
+  }
+  .info {
+    background-color: #1f2937;
+    padding: 50px 0;
+    text-align: center;
+    border-top: 2px solid #374151;
+  }
+  .info h2 {
+    margin: 0 0 20px 0;
+    font-size: 2em;
+    color: #6b7280;
+  }
+  .info p {
+    font-size: 1.2em;
+    color: #d1d5db;
+  }
+  footer {
+    background-color: #111827;
+    padding: 20px 0;
+    text-align: center;
+    color: #d1d5db;
+    border-top: 2px solid #374151;
+  }
+  .jogos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .jogo-card {
+    background-color: #374151;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+   .jogo-card:hover {
+      transform: translateY(-10px);
+   }
+  .jogo-card h3 {
+    font-size: 1.2em;
+    color: #f9fafb;
+    margin-bottom: 10px;
+  }
+  .jogo-card p {
+    font-size: 0.9em;
+    color: #d1d5db;
+  }
+  /* Estilos Tailwind (mantidos aqui para referência) */
+  .bg-gray-900 { background-color: #111827; }
+  .text-gray-50 { color: #f9fafb; }
+  .bg-gray-800 { background-color: #1f2937; }
+  .py-4 { padding-top: 1rem; padding-bottom: 1rem; }
+  .border-b { border-bottom-width: 1px; }
+  .border-gray-700 { border-color: #374151; }
+  .container { max-width: 1200px; margin-left: auto; margin-right: auto; padding-left: 1rem; padding-right: 1rem; }
+  .text-purple-500 { color: #6366f1; }
+  .text-2xl { font-size: 1.5rem; line-height: 2rem; }
+  .font-['Press_Start_2P'] { font-family: 'Press Start 2P', sans-serif; }
+  .text-purple-400 { color: #8b5cf6; }
+  .hover\:text-purple-400:hover { color: #8b5cf6; }
+  .py-16 { padding-top: 4rem; padding-bottom: 4rem; }
+  .text-center { text-align: center; }
+  .text-3xl { font-size: 1.875rem; line-height: 2.25rem; }
+  .sm\:text-4xl { font-size: 2.25rem; line-height: 2.5rem; }
+  .md\:text-5xl { font-size: 3rem; line-height: 1; }
+  .text-gray-300 { color: #d4d4d8; }
+  .mb-4 { margin-bottom: 1rem; }
+  .text-lg { font-size: 1.125rem; line-height: 1.75rem; }
+  .text-gray-400 { color: #9ca3af; }
+  .mb-8 { margin-bottom: 2rem; }
+  .bg-purple-500 { background-color: #6366f1; }
+  .hover\:bg-purple-600:hover { background-color: #4c51bf; }
+  .text-white { color: #fff; }
+  .py-3 { padding-top: 0.75rem; padding-bottom: 0.75rem; }
+  .px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
+  .rounded-lg { border-radius: 0.5rem; }
+  .text-2xl { font-size: 1.5rem; line-height: 2rem; }
+  .jogos-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1.25rem; margin-top: 1.25rem; }
+  .jogo-card { background-color: #374151; padding: 1rem; border-radius: 0.5rem; text-align: center; transition: transform 0.3s ease; }
+  .jogo-card:hover { transform: translateY(-0.5rem); }
+  .text-lg { font-size: 1.125rem; line-height: 1.75rem; }
+  .font-semibold { font-weight: 600; }
+  .text-gray-400 { color: #9ca3af; }
+  .py-6 { padding-top: 1.5rem; padding-bottom: 1.5rem; }
+  .text-sm { font-size: 0.875rem; line-height: 1.25rem; }
